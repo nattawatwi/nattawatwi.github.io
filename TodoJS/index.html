@@ -1,37 +1,38 @@
+<!DOCTYPE html>
 <html>
     <head>
         <!-- CSS only -->
         <link rel="stylesheet" href="index.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    </head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <title>TODO Application</title>
+      </head>
     <body>
+      <center>
         <div class="container"><br>
             <h1 class="display-1">TODO Application</h1>
       <!-- Input -->
       <div>
         <div class="mb-3 row">
           <label for="inputtodo" class="visually-hidden"></label>
-          <div class="col-sm-10">
+          <div class="col-sm"> 
             <input type="text" class="form-control" id="inputtodo" />
           </div>
-        </div>
-        <div class="mb-3 row">
-          <label for="inputFahrenheit" class="visually-hidden"></label>
-          <div class="col-sm-10">
-            <button id="addbtn" onclick="addTodo()" type="button" class="btn btn-secondary">Add</button>
+          <div class="d-grid gap-2">
+            <button id="addbtn" onclick="addTodo()" class="btn btn-danger" type="button">ADD</button>
           </div>
-        </div>
+        </div> 
       </div>
       <!-- List -->
       <div>
         <ul id="todolist" class="list-group">
-            <li class="list-group-item">CIS<span class="close">x</span></li>
-            <li class="list-group-item">DS<span class="close">x</span></li>
+            <li class="list-group-item">ABC<span class="close">x</span></li>
+            <li class="list-group-item">Hello<span class="close">x</span></li>
           </ul>
       </div>
     </div>
         <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
         <script src="indexdom.js"></script>
+      </center>
     </body>
 </html>

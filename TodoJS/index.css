@@ -9,3 +9,10 @@
     background-color: #fb2819;
     color: white;
   }
+
+body {
+    background: -webkit-linear-gradient(left, #00BFFF, #CC0099); 
+    background: -o-linear-gradient(right, #00BFFF, #CC0099);
+    background: -moz-linear-gradient(right, #00BFFF, #CC0099); 
+    background: linear-gradient(to right, #00BFFF, #CC0099); 
+}
