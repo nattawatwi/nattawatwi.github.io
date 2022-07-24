@@ -1,0 +1,11 @@
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 15px 9px 15px;
+}
+
+.close:hover {
+    background-color: #fb2819;
+    color: white;
+  }
