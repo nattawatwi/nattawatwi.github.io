@@ -1,0 +1,25 @@
+<p>
+  <mat-toolbar color="primary">
+    <button
+      [routerLink]="['/']"
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+    <mat-icon>menu</mat-icon>
+    </button>
+    <span>Shopping</span>
+    <span class="topbar-spacer"></span>
+
+    <button
+      [routerLink]="['/cart']"
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with share icon"
+    >
+      <mat-icon matBadge="{{ cartCount }}" matBadgeColor="warn"
+        >shopping_cart</mat-icon
+      >
+    </button>
+  </mat-toolbar>
+</p>
